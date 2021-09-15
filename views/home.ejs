@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="logo">Shortener</h1>
+      <form class="short-form">
+        <input
+          type="text"
+          class="short-form-box"
+          id="fullUrl"
+          placeholder="Enter url to shorten..."
+        />
+        <button id="shortButton" type="button" class="short-form-btn">
+          Shorten
+        </button>
+      </form>
+      <div class="short-result">
+        <span class="url" id="outputUrl">http://short.in/au8UY4Yd</span>
+        <a href="#" id="copyButton">Copy</a>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
